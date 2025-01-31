@@ -6,6 +6,7 @@
 - Update `brotli` dependency to `7`.
 - Minimum supported Rust version (MSRV) is now 1.75.
 - Implemented responder for `Option<()>` and `Result<(), E: Error> to respond with `204 No Content`
+- Added `Extensions::get_or_insert` and `Extensions::get_or_insert_with`
 
 ## 4.9.0
 
